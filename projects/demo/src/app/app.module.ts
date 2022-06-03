@@ -1,16 +1,16 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { CreatedAtModule } from '@mantonelli/created-at';
 
 import { AppComponent } from './app.component';
-import { CreatedAtComponent } from './created-at/created-at.component';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    CreatedAtComponent
+    AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    CreatedAtModule
   ],
   providers: [],
   bootstrap: [AppComponent]
